@@ -21,3 +21,12 @@ Udemy 에서 Learn DevOps: Kubernetes 강의를 수강하며 정리한 내용들
 
 ### Section 3
 
+- [Node Archtecture](section03/node_architecture.md)
+- [Scailing Pods](section03/scailing_pods.md)
+- [Deployments](section03/deployments.md)
+- [Services](section03/services.md)
+- [Labels](section03/labels.md)
+- [Health Checks](section03/health_checks.md)
+- [Readiness Probes](section03/readiness_probe.md)
+- [Pod State](section03/readiness_probe.md)
+- [Pod Lifecycle](section03/pod_lifecycle.md)
