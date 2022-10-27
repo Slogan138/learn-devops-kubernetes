@@ -17,11 +17,11 @@ Udemy 에서 Learn DevOps: Kubernetes 강의를 수강하며 정리한 내용들
 - [Building Containers](section02/buliding_containers.md)
 - [Docker Image Registry](section02/docker_image_registry.md)
 - [Running First App in Kubernetes](section02/running_first_app.md)
-- [Setting Loda Balancer](section02/setting_load_balancer.md)
+- [Setting Load Balancer](section02/setting_load_balancer.md)
 
 ### Section 3
 
-- [Node Archtecture](section03/node_architecture.md)
+- [Node Architecture](section03/node_architecture.md)
 - [Scailing Pods](section03/scailing_pods.md)
 - [Deployments](section03/deployments.md)
 - [Services](section03/services.md)
