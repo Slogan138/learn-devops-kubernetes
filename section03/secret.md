@@ -10,3 +10,17 @@
         - 해당 볼륨이 파일을 보유
         - `.env` 파일을 활용해서 애플리케이션에서 읽기만 허용하도록 사용
     - 개인 이미지 저장소에서 외부 이미지를 사용해 시크릿 가져오기
+
+- 파일을 이용해 Secret 생성하는 예
+
+```shell
+$ echo -n "root" > ./username.txt
+$ echo -n "password" > ./password.txt
+$ kubectl create secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt
+```
+
+- SSH Key 혹은 SSL 인증으로 사용하기
+
+```shell
+$ kubectl create secret generic ssl-certificate --from-file=ssh-privatekey=~/.ssh/id_rsa --from-file=ssl-cert=mysslcert.crt
+```
