@@ -24,3 +24,20 @@ $ kubectl create secret generic db-user-pass --from-file=./username.txt --from-f
 ```shell
 $ kubectl create secret generic ssl-certificate --from-file=ssh-privatekey=~/.ssh/id_rsa --from-file=ssl-cert=mysslcert.crt
 ```
+
+- yaml 파일로 정의하기
+
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secret
+type: Opaque
+data:
+  password: password
+  username: username
+```
+
+```shell
+$ kubectl apply -f secret.yaml
+```
