@@ -30,3 +30,4 @@ Udemy 에서 Learn DevOps: Kubernetes 강의를 수강하며 정리한 내용들
 - [Readiness Probes](section03/readiness_probe.md)
 - [Pod State](section03/readiness_probe.md)
 - [Pod Lifecycle](section03/pod_lifecycle.md)
+- [Secret](section03/secret.md)
